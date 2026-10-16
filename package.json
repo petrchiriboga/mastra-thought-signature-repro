@@ -1,0 +1,16 @@
+{
+  "name": "mastra-thought-signature-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "tsx repro.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/google-vertex": "3.0.137",
+    "@mastra/core": "1.78.0",
+    "@mastra/libsql": "1.26.2",
+    "@mastra/memory": "1.38.0",
+    "ai": "5.0.195",
+    "tsx": "^4.19.0"
+  }
+}
